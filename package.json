@@ -13,10 +13,10 @@
     "UI",
     "React"
   ],
-  "homepage": "http://vikingship.xyz",
+  "homepage": "https://github.com/wtl1019/wntd",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vikingmute/vikingship"
+    "url": "https://github.com/wtl1019/wntd"
   },
   "files": [
     "dist"
