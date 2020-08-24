@@ -16,7 +16,7 @@ import 'wntd/dist/index.css'
 import { Button } from 'wntd'
 ~~~
 
-### 课程亮点
+### 技术栈
 
 * 🔥typescript with React Hooks
 * ⛑️使用 react-testing-library 完成单元测试
@@ -24,8 +24,6 @@ import { Button } from 'wntd'
 ### 本地开发命令
 
 ~~~bash
-// 启动本地环境
-npm run stroybook
 
 // 单元测试
 npm test
