@@ -1,0 +1,19 @@
+
+// sass支持import命令，css也有但是每次创建都会创建一个http请求；  但是sass的指令将文件包含在css中，不需要再htl请求
+// _开头，这种模块在sass中叫做patials，告诉sass不要将其编译到css文件，但是在导入时不需要加_，这些文件只能模块导入，不能单独使用
+// 
+
+
+// config
+@import "variables";
+
+// layout
+@import "reboot";
+
+@import "mixin";
+
+// button
+@import "../components/Button/style";
+
+// menu
+@import "../components/Menu/style";
