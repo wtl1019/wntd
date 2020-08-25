@@ -32,11 +32,11 @@ const Button: FC<IButtonProps> = (props) => {
     ...restProps
   } = props
   // btn, btn-lg, btn-primary
-  const classes = classNames('btn', {
+  const classes = classNames('btn', className, {
     [`btn-${btnType}`]: !!btnType,
     [`btn-${btnSize}`]: !!btnSize,
     disabled: btnType === 'link' && disabled,
-  }, className)
+  })
   
   // link类型按钮，是个a标签
   if (btnType === 'link' && href) {
